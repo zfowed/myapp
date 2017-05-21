@@ -1,0 +1,13 @@
+{
+	"restartable": "rs",
+	"ignore": [
+		"public",
+		"upload_files",
+		"node_modules",
+		"store/databases/data"
+	],
+	"ext": "js json",
+	"execMap": {
+		"js": "node --harmony"
+	}
+}

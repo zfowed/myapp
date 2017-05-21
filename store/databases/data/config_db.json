@@ -1,0 +1,102 @@
+{
+  "api": {
+    "uri": "/api",
+    "jsonp": true,
+    "cross_domain": true,
+    "prompt": true
+  },
+  "body_upload": {
+    "upload_dir": "./upload_files",
+    "files_age": 86400000,
+    "schedule_time": "0 0 0 * * *"
+  },
+  "static_service": {
+    "path": "/public",
+    "temp_path": "/public/temp",
+    "files_age": 86400000,
+    "schedule_time": "0 0 0 * * *",
+    "option": {
+      "maxage": 86400000,
+      "hidden": false,
+      "index": "index.html",
+      "defer": false,
+      "gzip": true,
+      "extensions": false,
+      "root": "D:\\project\\myapp\\public"
+    }
+  },
+  "views": {
+    "path": "/views",
+    "option": {
+      "extension": "ejs",
+      "map": {
+        "pug": "pug",
+        "jade": "jade",
+        "html": "ejs",
+        "ejs": "ejs"
+      }
+    }
+  },
+  "session": {
+    "key": "myapp:sess",
+    "aes_key": "myapp",
+    "maxAge": 86400000,
+    "overwrite": true,
+    "httpOnly": true,
+    "signed": true
+  },
+  "core_databases": {
+    "storage": "/store/databases/data/database_core.db"
+  },
+  "app_databases": {
+    "storage": "/store/databases/data/database_app.db"
+  },
+  "user": {
+    "pwd_sha1_key": "pwdKey",
+    "sroot": {
+      "id": null,
+      "user": "sroot",
+      "password": "f+XMPP+h3J/GiggGPdXoHgJry3o=",
+      "role_id": null,
+      "description": "超级管理员",
+      "created_at": "2017-05-20T01:44:07.960Z",
+      "updated_at": "2017-05-20T01:44:07.960Z",
+      "deleted_at": null,
+      "role": {
+        "id": null,
+        "name": "Sroots",
+        "verification_route_bypass": true,
+        "verification_route": [],
+        "verification_api_bypass": true,
+        "verification_api": [],
+        "description": "超级管理员",
+        "created_at": "2017-05-20T01:44:07.960Z",
+        "updated_at": "2017-05-20T01:44:07.960Z",
+        "deleted_at": null
+      }
+    },
+    "guest": {
+      "id": null,
+      "user": "guest",
+      "password": null,
+      "role_id": null,
+      "description": "来宾",
+      "created_at": "2017-05-20T01:44:07.961Z",
+      "updated_at": "2017-05-20T01:44:07.961Z",
+      "deleted_at": null,
+      "role": {
+        "id": null,
+        "name": "Guests",
+        "verification_route_bypass": true,
+        "verification_route": [],
+        "verification_api_bypass": false,
+        "verification_api": [],
+        "description": "来宾",
+        "created_at": "2017-05-20T01:44:07.961Z",
+        "updated_at": "2017-05-20T01:44:07.961Z",
+        "deleted_at": null,
+        "verification_route_regexp": "^$"
+      }
+    }
+  }
+}
