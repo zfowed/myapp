@@ -44,3 +44,7 @@
 ## 简单的例子
 
 ![简单的例子](https://github.com/zfowed/myapp/raw/master/screenshots/simple_example.gif)
+
+## 跟多功能自行摸索
+
+![简单的例子](https://github.com/zfowed/myapp/raw/master/screenshots/more.png)
