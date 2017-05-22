@@ -43,4 +43,4 @@
 
 ## 简单的例子
 
-![简单的例子](https://github.com/zfowed/myapp/screenshots/simple_example.gif)
+![简单的例子](https://github.com/zfowed/myapp/raw/master/screenshots/simple_example.gif)
