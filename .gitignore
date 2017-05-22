@@ -83,3 +83,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# 数据库文件
+upload_files/*
+store/databases/data/

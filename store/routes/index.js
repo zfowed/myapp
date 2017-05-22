@@ -53,5 +53,5 @@ setTimeout(()=>{
 			router[method](`app-${id}`, uri, controller_method);
 		}
 	})
-}, 2000)
+}, 5000)
 

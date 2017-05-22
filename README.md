@@ -10,7 +10,7 @@
 *   具有用户管理系统，可针对每个角色分配路由、API的访问权。
 *   居于KOA2.0开发，ES7异步/等待支持。
 
-### 目录结构
+## 目录结构
 
 *   function 内部方法
     *   ...若干个内部方法
@@ -40,3 +40,7 @@
 *   app.js 启动文件
 *   config.js 初始配置文件
 *   admin.zip 前台管理员页面（可静态打开）
+
+## 简单的例子
+
+![简单的例子](https://github.com/zfowed/myapp/screenshots/simple_example.gif)

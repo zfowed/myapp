@@ -50,4 +50,4 @@ setTimeout(()=>{
 			apis_examples[mark] = Object.assign({controller_method}, item);
 		}
 	})
-}, 2000)
+}, 5000)
