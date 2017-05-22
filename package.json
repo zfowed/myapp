@@ -1,7 +1,7 @@
 {
   "name": "myapp",
   "version": "1.0.0",
-  "description": "A system that can customize routes, customize APIs, and manage user rights in the foreground.",
+  "description": "A system that visualizes web sites can customize routes, customize APIs, and manage user rights to the system.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js --harmony-async-await",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/zfowed/myapp.git"
   },
-  "keywords": ["前台编写代码", "路由管理", "API管理"],
+  "keywords": ["Visualize", "Website management", "Visualize website management"],
   "author": "zfowed",
   "license": "ISC",
   "bugs": {
@@ -43,5 +43,5 @@
     "sqlite3": "^3.1.8",
     "unzip": "^0.1.11",
     "uuid": "^3.0.1"
-  },
+  }
 }
